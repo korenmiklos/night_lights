@@ -4,7 +4,9 @@ Save PNG pictures and calculate average nightlight brightess for 8-by-8km surrou
 
 Get an API key from [LocationIQ](https://locationiq.org/#register).
 
-`git pull https://github.com/korenmiklos/night_lights.git`
-`pip install -r requirements.txt`
-`echo api_key=<API_KEY_HERE> > settings.py`
-`make`
+```bash
+git pull https://github.com/korenmiklos/night_lights.git
+pip install -r requirements.txt
+echo api_key=<API_KEY_HERE> > settings.py
+make
+```
